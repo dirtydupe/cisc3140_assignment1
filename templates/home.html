@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>CISC 3140 - NASA API - Assignment 1</title>
+  </head>
+  <body>
+    <h1>NASA Picture of the Day</h1>
+    <form method="POST" action="/testKey">
+	<input type="text" name ="urlField" id="key" 
+		placeholder="Enter URL here" />
+	<input type="text" name ="apikey" id="key" 
+		placeholder="Enter API key here" />
+	<input type="submit" value="Send Request" />	
+    </form>
+    <embed src="{{ imgUrl }}" width=750 height=450></embed>
+  </body>
+</html>
