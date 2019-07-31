@@ -1,3 +1,4 @@
+language: python
 deploy:
   provider: gae
   keyfile: client-secret.json
