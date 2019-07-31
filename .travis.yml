@@ -1,5 +1,5 @@
 language: python
 deploy:
   provider: gae
-  keyfile: client-secret.json
+  keyfile: credentials.tar.gz.encx
   project: cisc3140
