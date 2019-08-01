@@ -1,0 +1,5 @@
+language: python
+deploy:
+  provider: gae
+  keyfile: client-secret.json
+  project: cisc3140
