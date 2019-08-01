@@ -6,3 +6,8 @@ This project is a barebones API client that, by default, connects with NASAs API
 
 
 `set FLASK_APP=nasaAPI.py` then run the Flask server with `flask run`
+
+
+## Assignment 3 
+
+Currently attempting to link project to Travis CI and host on Google Cloud Platform
