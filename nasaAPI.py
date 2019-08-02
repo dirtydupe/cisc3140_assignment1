@@ -14,7 +14,7 @@ def home():
 
         #Build image URL to pass to template
         imgUrl = buildURL(url, apiKey)
-        
+
         #Return home.html template and pass the image URL
         return render_template('home.html', imgUrl=imgUrl)
 
@@ -22,7 +22,7 @@ def home():
 def testKey():
         #Getting URL from form
         url = request.form['urlField']
-        
+
         #Getting API key input from form
         apiKey = request.form['apikey']
 
@@ -37,3 +37,8 @@ def buildURL(url, apiKey):
         #Get image URL from json object
         imgUrl = decode['url']
         return imgUrl
+
+
+if __name__ == '__main__':
+    app.run()
+
